@@ -1,0 +1,6 @@
+body{
+    background-image: linear-gradient(rgb(142,131,213,0.918),rgba(92, 14, 85, 0.825));
+}
+.lastbtn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 20px; 
+    font-size:16px; border-radius:2px; border:none; margin-left: 85% !important; margin-bottom:3%;}
+  .lastbtn:hover{ background:#004566; text-decoration:none;}

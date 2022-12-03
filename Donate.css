@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(#ffa8b6,#a28089);
+}
+.why{
+  margin-top: 5%;
+  text-align: center;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 10%;
+}
+.imgdonate {
+  width: 150%;
+}
+.one {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 90%;
+}
+.one:hover {
+  color: yellow;
+}
+.two {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 75%;
+}
+.two:hover {
+  color: yellow;
+}
+.three {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 75%;
+}
+.three:hover {
+  color: yellow;
+}
+.four {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 75%;
+}
+.four:hover {
+  color: yellow;
+}
+.imgdonate {
+  border-radius: 4%;
+  border: 2px solid yellow;
+}
+
+@media only screen and (max-width: 768px) {
+  .row1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imgdonate {
+    width: 50%;
+  }
+}
+.btn{
+ margin-bottom:50%;
+}
+.lastbtn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 20px; 
+  font-size:16px; border-radius:2px; border:none; margin-left: 85% !important; margin-bottom:3%;}
+.lastbtn:hover{ background:#004566; text-decoration:none;}

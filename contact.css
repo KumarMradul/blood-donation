@@ -1,0 +1,51 @@
+body{
+  background: linear-gradient(
+      105deg,
+      #88beee ,
+      #0a2e73
+  );
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  .lastbtn1 {
+    background-color: #0c563b;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lastbtn1:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    
+    border-radius: 5px;
+    background: linear-gradient(
+      105deg,
+      #88beee ,
+      #0a2e73
+  );
+    padding: 20px;
+  }
+  
+  .lastbtn{ background:#0474C6; color:#FFF; text-decoration:none; text-align:center; padding:7px 20px; 
+  font-size:16px; border-radius:2px; border:none; margin-left: 85% !important;}
+  .lastbtn:hover{ background:#004566; text-decoration:none;}
